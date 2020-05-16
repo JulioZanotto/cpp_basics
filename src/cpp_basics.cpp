@@ -7,6 +7,7 @@
 //============================================================================
 
 #include <iostream>
+#include "carro.h"
 using namespace std;
 
 void printaNome(){
@@ -20,8 +21,16 @@ int retornaConta(int x, int y){
 }
 
 int main() {
+	Carro carro1;
+	carro1.setMarca("Volks");
+	carro1.setAno(2018);
+	Carro carro2;
+
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	printaNome();
 	cout << retornaConta(1,2) << endl;
+
+	cout << carro1.getMarca() <<endl;
+	cout << carro2.getMarca() << endl;
 	return 0;
 }
