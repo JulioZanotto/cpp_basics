@@ -34,6 +34,14 @@ int Carro::getAno(){
 	return ano;
 }
 
+void Carro::setOptional(string optional){
+	this->optional = optional;
+}
+
+string Carro::getOptional(){
+	return optional;
+}
+
 Carro::Carro(){
 	this->marca = "Toyota";
 }

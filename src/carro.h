@@ -22,8 +22,11 @@ public:
 	string getMarca();
 	void setAno(int ano);
 	int getAno();
+	void setOptional(string optional);
+	string getOptional();
 private:
 	string marca;
+	string optional;
 	int ano;
 };
 

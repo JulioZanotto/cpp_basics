@@ -26,6 +26,11 @@ int main() {
 	carro1.setAno(2018);
 	Carro carro2;
 
+	Carro carro3;
+	carro3.setMarca("Lexus");
+	carro3.setAno(2020);
+	carro3.setOptional("Completo");
+
 	int soma = 0;
 
 	for (int i = 0; i < 5; i++) {
@@ -38,5 +43,8 @@ int main() {
 
 	cout << carro1.getMarca() <<endl;
 	cout << carro2.getMarca() << endl;
+
+	cout << "Carro: " << carro3.getMarca() << ", Ano: " << carro3.getAno() << endl;
+	cout << "E um carro: " << carro3.getOptional() << endl;
 	return 0;
 }
