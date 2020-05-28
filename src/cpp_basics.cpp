@@ -26,6 +26,12 @@ int main() {
 	carro1.setAno(2018);
 	Carro carro2;
 
+	int soma = 0;
+
+	for (int i = 0; i < 5; i++) {
+		soma += i;
+	}
+	cout << "Sominha de saca: " << soma << endl;
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	printaNome();
 	cout << retornaConta(1,2) << endl;
