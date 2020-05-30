@@ -31,6 +31,8 @@ int main() {
 	carro3.setAno(2020);
 	carro3.setOptional("Completo");
 
+	int teste = 1;
+
 	int soma = 0;
 
 	for (int i = 0; i < 5; i++) {
